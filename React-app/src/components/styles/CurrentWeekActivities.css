@@ -1,0 +1,43 @@
+.current-week-activities-table {
+    width: 70%;
+    border-collapse: collapse;
+    background-color: #DBE8D8 ;
+    
+  }
+
+.current-week-activities-table th, td {
+    border: 1px solid black;
+    padding: 8px;
+    font-size: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.header-row-current-activity th {
+    /* #DBE8D8 */
+    /* background-color: rgba(200, 247, 200, 1); */
+    background-color: rgba(193, 217, 193, 0.61);
+}
+
+.activity{
+  font-style: italic;
+  font-size: 18px;
+  width: 100%;
+}
+
+.current-week-activities-header {
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.current-week-activities-number {
+  font-size: 22px;
+}
+
+.done-message{
+  color: orange;
+  font-size: 20px;
+  font-weight: bold;
+
+}

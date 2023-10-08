@@ -1,0 +1,109 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.all-activities-section {
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.delete-activities-section{
+  width: 70%;
+}
+
+.btnGetActivities, .submit-button {
+  background-color: rgb(245, 177, 51);
+  color: black;
+  font-size: 18px;
+  height: 40px;
+  border-radius: 10px;
+  width: 200px;
+  margin-bottom: 50px;
+  border-width: 0;
+  padding: 10px 0px 10px 0px;
+  border-color: rgb(245, 177, 51);
+  font-weight: normal;
+  cursor: pointer;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease, transform 0.1s ease;
+}
+
+.button-section-wrapper {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.all-activities-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: #DBE8D8 ;
+  
+}
+
+.all-activities-table-header{
+  width: 100%;
+  text-align: center; 
+  margin-bottom: 20px;
+}
+
+.activities-table {
+  border-collapse: collapse;
+  border: 1px solid black;
+}
+
+.all-activities-table-header-row th{    
+  height: 20px;
+  padding: 8px;
+  border: 1px solid black;
+  border-collapse: collapse; 
+  background-color: rgba(193, 217, 193, 0.61);
+}
+
+.all-activities-activity{
+  width: 20%;
+}
+
+.btn-section {
+  display: flex;
+  justify-content: space-around;
+}
+
+.week{
+  width: 15%;
+}
+
+.btnGetActivities:hover {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.btnGetActivities:hover {
+  background-color: rgb(253, 203, 110);
+}
+
+.btnGetActivities:active {
+  transform: translateY(2px);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
